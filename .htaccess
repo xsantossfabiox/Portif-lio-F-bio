@@ -1,0 +1,23 @@
+# Redireciona para HTTPS em hospedagens Apache que permitem mod_rewrite.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+</IfModule>
+
+# Compressão de texto para reduzir transferência.
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/plain text/css text/javascript application/javascript application/json application/ld+json application/xml image/svg+xml
+</IfModule>
+
+# Cache para recursos estáticos.
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType image/webp "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 year"
+ExpiresByType video/mp4 "access plus 1 month"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 month"
+</IfModule>

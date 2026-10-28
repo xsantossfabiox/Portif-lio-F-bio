@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Fábio Santos | Desenvolvedor web</title>
+<meta name="description" content="Fábio Santos é desenvolvedor web em formação e cria sites institucionais, cardápios digitais, landing pages e soluções sob medida para pequenos negócios.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<!-- IMPORTANTE: substitua SEU-DOMINIO.com pelo domínio real antes de publicar. -->
+<link rel="canonical" href="https://SEU-DOMINIO.com/">
+<link rel="preload" as="image" href="media/fabio-santos.jpg" fetchpriority="high">
+<meta name="theme-color" content="#0B0B0D">
+
+<!-- Compartilhamento: og:image deve ser uma imagem (não vídeo). Troque og:url pelo endereço final do site. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Fábio Santos | Desenvolvimento Web">
+<meta property="og:title" content="Fábio Santos | Desenvolvedor web">
+<meta property="og:description" content="Sites institucionais, cardápios digitais e soluções web para pequenos negócios.">
+<meta property="og:url" content="https://SEU-DOMINIO.com/">
+<meta property="og:image" content="https://SEU-DOMINIO.com/media/og-fabio.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Fábio Santos — desenvolvimento web para pequenos negócios">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Fábio Santos | Desenvolvedor web">
+<meta name="twitter:description" content="Sites, cardápios digitais e soluções web para pequenos negócios.">
+<meta name="twitter:image" content="https://SEU-DOMINIO.com/media/og-fabio.jpg">
+
+<!-- Ícone (SVG embutido). Troque por favicon.png se preferir. -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B0B0D'/%3E%3Ctext x='32' y='43' font-size='30' text-anchor='middle' fill='%23C6A15B' font-family='Georgia,serif'%3EFS%3C/text%3E%3C/svg%3E">
+
+<!-- Fontes do Google (se estiver offline, o site usa as fontes de reserva) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Manrope:wght@400;500;600&display=swap">
+
+<!-- Estilos -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= CABEÇALHO / MENU ================= -->
+<header>
+<div class="wrap bar">
+<a class="logo" href="#inicio" aria-label="Fábio Santos, início">Fábio<b>.</b>Santos</a>
+<nav id="nav" aria-label="Principal">
+<ul>
+<li><a href="#sobre">Trajetória</a></li>
+<li><a href="#projetos">Projetos</a></li>
+<li><a href="#aurora-demo">Aurora</a></li>
+<li><a href="#app-encomendas">App</a></li>
+<li><a href="#servicos">Serviços</a></li>
+<li><a href="#processo">Processo</a></li>
+<li><a href="#contato">Contato</a></li>
+</ul>
+</nav>
+<button class="menu" id="menu" type="button" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M3 6h14M3 14h14"/></svg>
+</button>
+</div>
+</header>
+
+<main id="inicio">
+
+<!-- ================= APRESENTAÇÃO ================= -->
+<section class="hero">
+<div class="wrap">
+<div class="hero-copy">
+<p class="who">PORTFÓLIO · DESENVOLVIMENTO WEB</p>
+<h1 class="hero-name">Fábio <span>Santos</span></h1>
+<p class="hero-tagline">Transformando ideias em soluções digitais.</p>
+<p class="lead">Sou desenvolvedor web e estudante de Análise e Desenvolvimento de Sistemas. Crio experiências digitais que ajudam negócios a apresentar seu trabalho, organizar informações e se conectar com clientes.</p>
+<div class="cta">
+<a class="btn btn-gold" data-wa="geral" href="#contato">Solicitar um orçamento</a>
+<a class="btn btn-ghost" href="#projetos">Conhecer meus projetos</a>
+</div>
+<div class="scroll"><i aria-hidden="true"></i>Role para conhecer minha trajetória</div>
+</div>
+<div class="hero-portrait"><div class="portrait-frame"><img src="media/fabio-santos.jpg" alt="Fábio Santos usando camisa preta, em um ambiente elegante" fetchpriority="high"></div><span class="portrait-caption"><i></i> Desenvolvedor web em formação</span><div class="portrait-orbit" aria-hidden="true"></div></div>
+</div>
+</section>
+
+<!-- ================= TRAJETÓRIA (texto vem de js/script.js > ABOUT) ================= -->
+<section class="about" id="sobre">
+<div class="wrap">
+<div>
+<span class="rule"></span>
+<h2 id="sobre-titulo">Por trás do código</h2>
+<div class="vals" id="vals"></div>
+</div>
+<div class="txt" id="about-text"></div>
+</div>
+</section>
+
+<!-- ================= PROJETOS (cards vêm de js/script.js > PROJECTS) ================= -->
+<section id="projetos">
+<div class="wrap">
+<span class="rule"></span>
+<h2>Projetos selecionados</h2>
+<p class="lead">Sites de demonstração e aplicativos que desenvolvi para mostrar, na prática, como posso ajudar o seu negócio.</p>
+<div class="projects" id="projects"></div>
+</div>
+</section>
+
+<!-- ================= AURORA HAIR STUDIO: DEMONSTRAÇÃO EM VÍDEO ================= -->
+<section class="aurora-demo" id="aurora-demo">
+<div class="wrap">
+<div class="aurora-intro">
+<span class="rule"></span><p class="eyebrow">PROJETO DEMONSTRATIVO · SALÃO DE BELEZA</p>
+<h2>Aurora Hair Studio</h2>
+<p class="aurora-slogan">Seu cabelo, sua melhor versão.</p>
+<p class="lead">Uma experiência digital conceitual para um salão especializado em cabelos, com identidade visual delicada, tons rosados e neutros, apresentação de serviços e caminhos claros para o contato.</p>
+<ul class="aurora-points"><li>Identidade visual em rosa-claro, nude e creme</li><li>Seções de apresentação, serviços e depoimentos demonstrativos</li><li>Layout responsivo e contato pelo WhatsApp</li></ul>
+<div class="aurora-gallery" aria-label="Capturas de tela do Aurora Hair Studio">
+<figure><img src="media/aurora-inicio.jpg" alt="Tela inicial do Aurora Hair Studio" loading="lazy"><figcaption>Início</figcaption></figure>
+<figure><img src="media/aurora-servicos.jpg" alt="Serviços do Aurora Hair Studio" loading="lazy"><figcaption>Serviços</figcaption></figure>
+<figure><img src="media/aurora-depoimentos.jpg" alt="Depoimentos demonstrativos do Aurora Hair Studio" loading="lazy"><figcaption>Depoimentos</figcaption></figure>
+</div>
+</div>
+<div class="aurora-video-column">
+<div class="player-label"><span>DEMONSTRAÇÃO EM VÍDEO</span><span>MP4 · arquivo original</span></div>
+<div class="video-player aurora-player" id="aurora-player">
+<video id="aurora-vid" controls playsinline preload="metadata" aria-label="Vídeo demonstrativo do site Aurora Hair Studio" poster="media/aurora-inicio.jpg">
+<source src="media/aurora-demo.mp4" type="video/mp4">
+Seu navegador não consegue reproduzir este vídeo. Abra o projeto em uma versão atualizada do navegador.
+</video>
+<div class="player-actions"><button type="button" class="fullscreen-btn" data-fullscreen="aurora-player"><span aria-hidden="true">⛶</span> Assistir em tela cheia</button></div>
+<p class="video-error" hidden>O vídeo não carregou. Confira se <code>media/aurora-demo.mp4</code> está na pasta <code>media</code>.</p>
+</div>
+<p class="video-note">Dica: no celular, toque em “Assistir em tela cheia” para ampliar a demonstração e ler melhor os detalhes.</p>
+</div>
+</div>
+</section>
+
+<!-- ================= MAISON D’OR: CARDÁPIO DIGITAL ================= -->
+<section class="cardapio-demo" id="cardapio-demo">
+<div class="wrap">
+<span class="rule"></span>
+<p class="eyebrow">PROJETO DEMONSTRATIVO · RESTAURANTE</p>
+<h2>Maison D’Or — Cardápio digital</h2>
+<p class="lead">Uma experiência digital para um restaurante de gastronomia contemporânea, com apresentação elegante dos pratos, descrições e preços. O cardápio organiza as opções por categorias e facilita a consulta tanto no computador quanto no celular.</p>
+<div class="cardapio-video-column">
+<div class="player-label"><span>DEMONSTRAÇÃO EM VÍDEO</span><span>MP4 · Maison D’Or</span></div>
+<div class="video-player cardapio-player" id="cardapio-player">
+<video id="cardapio-vid" controls playsinline preload="metadata" poster="media/maison-dor-capa.webp" aria-label="Demonstração em vídeo do cardápio digital Maison D’Or">
+<source src="media/maison-dor-demo.mp4" type="video/mp4">
+Seu navegador não consegue reproduzir este vídeo. Abra o projeto em uma versão atualizada do navegador.
+</video>
+<div class="player-actions"><button type="button" class="fullscreen-btn" data-fullscreen="cardapio-player"><span aria-hidden="true">⛶</span> Assistir em tela cheia</button></div>
+<p class="video-error" hidden>O vídeo não carregou. Confira se <code>media/maison-dor-demo.mp4</code> está na pasta <code>media</code>.</p>
+</div>
+<p class="video-note">Demonstração do site Maison D’Or, incluindo a navegação pelo cardápio e a apresentação dos pratos.</p>
+<a class="btn btn-ghost" href="#projetos">Voltar aos projetos</a>
+</div>
+</div>
+</section>
+
+<!-- ================= APLICATIVO DE ENCOMENDAS (vídeo) ================= -->
+<section class="demo" id="app-encomendas">
+<div class="wrap">
+<div>
+<span class="rule"></span>
+<h2>Veja um projeto em funcionamento</h2>
+<p class="lead" id="video-caption">Um aplicativo de controle de encomendas, em uso.</p>
+<p class="lead">Desenvolvi um aplicativo para controlar encomendas de produtos com muita saída, como as vendas feitas em marketplaces. Em vez de depender de anotações soltas, o vendedor organiza tudo em um só lugar.</p>
+<ul>
+<li>Cadastro de cada encomenda com produto, cliente, WhatsApp, plataforma de venda, datas e endereço.</li>
+<li>Consulta por cliente, código ou bairro, com separação entre encomendas em aberto e entregues.</li>
+<li>Agrupamento das encomendas por região.</li>
+<li>Acompanhamento de prazos, com destaque para as atrasadas e as que vencem hoje ou amanhã.</li>
+<li>Interface própria para uso no celular.</li>
+</ul>
+<p class="more">Além deste, posso criar outras soluções voltadas à administração do seu negócio, como controle de pedidos, clientes e prazos, de acordo com a sua rotina. O escopo é combinado individualmente.</p>
+<div class="cta"><a class="btn btn-gold" data-wa="geral" href="#contato">Quero algo assim</a></div>
+</div>
+
+<!--
+  VÍDEO: para trocar, substitua o arquivo em media/demo.mp4 (ou altere o src abaixo)
+  e a capa em media/demo-capa.jpg (atributo poster).
+-->
+<div class="vbox" id="vbox">
+<video id="vid" muted loop playsinline preload="metadata" poster="media/demo-capa.jpg" aria-label="Demonstração do aplicativo de controle de encomendas">
+<source src="media/demo.mp4" type="video/mp4">
+</video>
+<!-- Aparece se o navegador bloquear a reprodução automática -->
+<div class="vfall" id="vfall"><button class="btn btn-gold" id="vplay" type="button">Reproduzir demonstração</button></div>
+<!-- Aparece somente se o arquivo de vídeo não carregar -->
+<div class="vfail" id="vfail" role="status"><span>Não foi possível carregar o vídeo. Confira se o arquivo <code>media/demo.mp4</code> está na pasta.</span></div>
+<div class="vctl" id="vctl">
+<button type="button" id="vpause" aria-pressed="false">Pausar</button>
+<button type="button" class="fullscreen-btn" data-fullscreen="vbox"><span aria-hidden="true">⛶</span> Tela cheia</button>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ================= SERVIÇOS (vêm de js/script.js > SERVICES) ================= -->
+<section id="servicos">
+<div class="wrap">
+<span class="rule"></span>
+<h2>Serviços</h2>
+<p class="lead">Soluções simples e bem acabadas para quem quer uma presença digital clara.</p>
+<div class="services" id="services"></div>
+<p class="note">Hospedagem, domínio, manutenção, integrações e funcionalidades mais complexas não estão incluídos automaticamente. Cada item é combinado individualmente, de acordo com a necessidade do negócio.</p>
+</div>
+</section>
+
+<!-- ================= PROCESSO (vem de js/script.js > STEPS) ================= -->
+<section id="processo" style="padding-top:0">
+<div class="wrap">
+<span class="rule"></span>
+<h2>Como funciona</h2>
+<ol class="steps" id="steps"></ol>
+</div>
+</section>
+
+<!-- ================= CONTATO ================= -->
+<section class="final" id="contato">
+<div class="wrap">
+<span class="rule"></span>
+<h2>Vamos tirar sua ideia do papel?</h2>
+<p class="lead">Se você tem um negócio, um projeto ou uma ideia que precisa ganhar vida na internet, vamos conversar.</p>
+<div class="cta">
+<a class="btn btn-gold" data-wa="geral" href="#contato">Conversar pelo WhatsApp</a>
+<a class="btn btn-ghost" data-wa="projeto" href="#contato">Vamos criar um projeto?</a>
+</div>
+</div>
+</section>
+</main>
+
+<!-- ================= RODAPÉ ================= -->
+<footer>
+<div class="wrap">
+<div><h3>Fábio Santos</h3><p>Desenvolvedor web</p></div>
+<div><h3>Navegação</h3><ul>
+<li><a href="#sobre">Trajetória</a></li><li><a href="#projetos">Projetos</a></li><li><a href="#servicos">Serviços</a></li><li><a href="#processo">Processo</a></li></ul></div>
+<div><h3>Contato</h3><ul>
+<li><a id="ig" href="https://instagram.com/fabio.webdev" target="_blank" rel="noopener noreferrer">Instagram @fabio.webdev</a></li>
+<li><a data-wa="geral" href="#contato">WhatsApp: (21) 97702-9756</a></li></ul></div>
+<p class="copy">© <span id="year"></span> Fábio Santos. Todos os direitos reservados.</p>
+</div>
+</footer>
+
+<!-- Botão flutuante do WhatsApp -->
+<a class="fab" data-wa="geral" href="#contato" aria-label="Conversar pelo WhatsApp">
+<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-1.9 1.3-.5.1-1.1.1-3.5-.8-2.9-1.2-4.700-4.100-4.900-4.300-.1-.2-1.200-1.600-1.200-3s.7-2.100 1-2.400c.2-.3.500-.3.700-.3h.5c.2 0 .4 0 .6.500l.8 2c.1.200.1.300 0 .500l-.3.400-.3.400c-.1.100-.3.300-.1.600.2.300.8 1.300 1.700 2.100 1.200 1 2.200 1.300 2.500 1.500.3.100.5.100.6-.1l.9-1.100c.2-.3.400-.2.600-.1l1.900.9c.3.100.5.200.5.300.1.100.1.700-.1 1.300Z"/></svg>
+</a>
+
+<script src="js/script.js" defer></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://SEU-DOMINIO.com/#fabio-santos",
+      "name": "Fábio Santos",
+      "jobTitle": "Desenvolvedor web",
+      "url": "https://SEU-DOMINIO.com/",
+      "image": "https://SEU-DOMINIO.com/media/fabio-santos.jpg",
+      "sameAs": ["https://instagram.com/fabio.webdev"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://SEU-DOMINIO.com/#website",
+      "url": "https://SEU-DOMINIO.com/",
+      "name": "Fábio Santos | Desenvolvimento Web",
+      "inLanguage": "pt-BR",
+      "publisher": {"@id": "https://SEU-DOMINIO.com/#fabio-santos"}
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://SEU-DOMINIO.com/#servico",
+      "name": "Fábio Santos — Desenvolvimento Web",
+      "url": "https://SEU-DOMINIO.com/",
+      "image": "https://SEU-DOMINIO.com/media/og-fabio.jpg",
+      "description": "Criação de sites institucionais, cardápios digitais, landing pages e soluções web para pequenos negócios.",
+      "telephone": "+5521977029756",
+      "areaServed": {"@type": "Country", "name": "Brasil"},
+      "founder": {"@id": "https://SEU-DOMINIO.com/#fabio-santos"}
+    }
+  ]
+}
+</script>
+</body>
+</html>
